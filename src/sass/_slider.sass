@@ -1,0 +1,43 @@
+
+.slider-outer
+	position: realtive
+	margin-bottom: 240px
+.slider 
+	&__item 
+		position: relative
+		img
+			float: right
+	&__text 
+		text-align: left
+		position: absolute
+		top: 50%
+		transform: translate(0%,-50%)
+
+		.description
+			max-width: 380px
+	&__title
+		font-size: 64px
+
+// .slider-btns
+// 	position: absolute
+// 	left: 0
+// 	bottom: 0
+
+.slick-btns 
+	position: absolute
+	left: 0
+	bottom: 0
+.slick-btn 
+	display: inline-block
+
+.slick-next-btn,
+.slick-prev-btn
+	cursor: pointer
+	padding: 10px
+	svg 
+		font-size: 16px
+		fill: #ebebeb
+// .slick-next-btn
+// 	right: 0
+// .slick-prev-btn
+// 	left: 0
